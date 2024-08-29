@@ -47,12 +47,35 @@
     object-fit: cover;
     pointer-events: none;
   }
+  .permanent-marker-regular {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+    
+  
   #text{
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-weight: 400;
+    font-style: normal;
     position: relative;
-    color: #fff;
+    color: #040081;
+    font-weight: bold;
     font-size: 10em;
     z-index: 1;
   }
+  
   #road{
     z-index: 2;
   }
+
+  .btn{
+    background-color: #0a2a43;
+    color: #ffffff;
+  }
+  .btn:hover{
+    background-color: #f4b700;
+    color: #0a2a43;
+  }
+  
